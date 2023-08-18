@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Elpet.Base" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → MAIN COLORS -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <!-- Surface colors. -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Background colors. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+
+        <!-- Other colors. -->
+        <item name="colorAccent">?colorSecondary</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+
+        <!-- Control colors. -->
+        <item name="android:colorControlNormal">?colorOnSurface</item>
+        <item name="android:colorControlActivated">?colorSecondary</item>
+        <item name="android:colorControlHighlight">?colorOnSurface</item>
+
+        <!-- Alpha emphasis values. -->
+        <item name="alphaEmphasisHigh">0.95</item>
+        <item name="alphaEmphasisMedium">0.5</item>
+        <item name="alphaEmphasisDisabled">0.15</item>"
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → STATUS & NAVIGATION BAR -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → SHAPES -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="shapeAppearanceSmallComponent">@style/Theme.Elpe.Shape.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/Theme.Elpe.Shape.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/Theme.Elpe.Shape.LargeComponent</item>
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → TEXT STYLES -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="textAppearanceHeadline1">@style/Theme.Elpe.Text.H1</item>
+        <item name="textAppearanceHeadline2">@style/Theme.Elpe.Text.H2</item>
+        <item name="textAppearanceHeadline3">@style/Theme.Elpe.Text.H3</item>
+        <item name="textAppearanceHeadline4">@style/Theme.Elpe.Text.H4</item>
+        <item name="textAppearanceHeadline5">@style/Theme.Elpe.Text.H5</item>
+        <item name="textAppearanceHeadline6">@style/Theme.Elpe.Text.H6</item>
+        <item name="textAppearanceSubtitle1">@style/Theme.Elpe.Text.P1</item>
+        <item name="textAppearanceSubtitle2">@style/Theme.Elpe.Text.P2</item>
+        <item name="textAppearanceBody1">@style/Theme.Elpe.Text.P1</item>
+        <item name="textAppearanceBody2">@style/Theme.Elpe.Text.P2</item>
+        <item name="textAppearanceButton">@style/Theme.Elpe.Text.P1</item>
+        <item name="textAppearanceCaption">@style/Theme.Elpe.Text.Caption</item>
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → UI ELEMENTS -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="navigationViewStyle">@style/Theme.Elpe.BottomSheet</item>
+        <item name="toolbarStyle">@style/Theme.Elpe.Toolbar</item>
+        <item name="checkboxStyle">@style/Theme.Elpe.Checkbox</item>
+        <item name="chipStyle">@style/Theme.Elpe.Chip</item>
+
+        <item name="cardElevation">4dp</item>
+
+    </style>
+
+    <style name="Theme.Elpet" parent="Theme.Elpet.Base">
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → STATUS & NAVIGATION BAR -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="android:statusBarColor">?colorPrimaryDark</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
+
+        <item name="android:navigationBarColor">?colorPrimaryDark</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+
+        <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+        <!--  → THEME VARIANT SETTINGS -->
+        <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+    </style>
+</resources>

@@ -1,0 +1,136 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs'
+}
+apply plugin: 'kotlin-android'
+
+def versionMajor = 1
+def versionMinor = 0
+def versionPatch = 3
+def releaseDate = "14-8-2022"
+
+android {
+    compileSdk 33
+    flavorDimensions "default"
+
+    defaultConfig {
+        applicationId "com.elpet.kaizen"
+        minSdk 26
+        targetSdk 33
+        versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
+        versionName "${versionMajor}.${versionMinor}.${versionPatch} (${releaseDate})"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            debuggable false
+            buildConfigField "Boolean", "DEBUG", "false"
+        }
+        debug {
+            debuggable true
+            buildConfigField "Boolean", "DEBUG", "true"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    namespace 'com.elpet.kaizen'
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = new File(
+                    "ElpeKaizen [${versionMajor}.${versionMinor}.${versionPatch}]" +
+                            "_${variant.buildType.name}" +
+                            "_${releaseDate}.apk")
+        }
+    }
+}
+
+dependencies {
+
+    // *********************************************************************************************
+    // * NATIVE LIBRARIES
+    // *********************************************************************************************
+
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.fragment:fragment-ktx:1.5.7'
+
+    // -- ViewModel library.
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+
+    // *********************************************************************************************
+    // * GOOGLE LIBRARIES
+    // *********************************************************************************************
+
+    // -- Android navigation library.
+    def nav_version = "2.6.0"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // -- Swipe to refresh layout.
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01"
+
+    // -- Hilt dependency injection.
+    def hilt_version = "2.44.2"
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
+
+    // -- Database library.
+    def room_version = "2.5.2"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    // -- Secure shared preferences library.
+    implementation "androidx.security:security-crypto:1.1.0-alpha03"
+    implementation "androidx.security:security-app-authenticator:1.0.0-alpha02"
+
+    // *********************************************************************************************
+    // * THIRD PARTY LIBRARIES
+    // *********************************************************************************************
+
+    // -- Coil (image loading) library.
+    def coil_version = "2.2.2"
+    implementation "io.coil-kt:coil:$coil_version"
+
+    // -- Retrofit2 library.
+    def retrofit2_version = "2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit2_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit2_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.11.0"
+
+    // *********************************************************************************************
+    // * DEBUG-TEST LIBRARIES
+    // *********************************************************************************************
+
+    // -- Logger library.
+    def logger_version = "2.2.0"
+    implementation "com.orhanobut:logger:$logger_version"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

@@ -1,0 +1,29 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Template/app/src/main/res/layout/fragment_home.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/bg_input_field_rounded.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/color_background_gradient.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.4" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.4" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.4" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_logo.xml" value="0.4" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.4" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/layout/activity_main.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/layout/element_hero.xml" value="0.2" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/layout/element_loading.xml" value="0.3592592592592593" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/layout/fragment_home.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/layout/fragment_splash.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/gverg/Documents/Projects/Template/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2222222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

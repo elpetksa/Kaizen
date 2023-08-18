@@ -1,0 +1,372 @@
+<resources>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT STYLES [ REGULAR ] -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Text.H1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h1</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h2</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h3</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h4</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h5</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/h6</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.P1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+        <item name="android:textSize">@dimen/p1</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.P2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+        <item name="android:textSize">@dimen/p2</item>
+        <item name="android:alpha">?alphaEmphasisMedium</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+        <item name="android:textSize">@dimen/caption</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Caption.Small" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+        <item name="android:textSize">@dimen/caption_small</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Chip" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="android:textSize">@dimen/chip</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT STYLES [ BOLD ] -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Text.P1.Bold" parent="Theme.Elpe.Text.P1">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.P2.Bold" parent="Theme.Elpe.Text.P2">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Caption.Bold" parent="Theme.Elpe.Text.Caption">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Caption.Small.Bold" parent="Theme.Elpe.Text.Caption">
+        <item name="android:textSize">@dimen/caption_small</item>
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.Chip.Bold" parent="Theme.Elpe.Text.Chip">
+        <item name="android:fontFamily">@font/font_main_bold</item>
+        <item name="fontFamily">@font/font_main_bold</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT STYLES [ ITALIC ] -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Text.Caption.Italic" parent="Theme.Elpe.Text.Caption">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT STYLES [ HREF ] -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Text.P1.Href" parent="Theme.Elpe.Text.P1">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.P2.Href" parent="Theme.Elpe.Text.P2">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT STYLES [ LIGHT ] -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Text.H1.Light" parent="Theme.Elpe.Text.H1">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H2.Light" parent="Theme.Elpe.Text.H2">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H3.Light" parent="Theme.Elpe.Text.H3">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H4.Light" parent="Theme.Elpe.Text.H4">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H5.Light" parent="Theme.Elpe.Text.H5">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <style name="Theme.Elpe.Text.H6.Light" parent="Theme.Elpe.Text.H6">
+        <item name="android:fontFamily">@font/font_main_regular</item>
+        <item name="fontFamily">@font/font_main_regular</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → UI ELEMENTS -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.BottomSheet" parent="Widget.MaterialComponents.NavigationView">
+        <!-- Remove any scrim insets applied by NavigationView for system bars. -->
+        <item name="insetForeground">@android:color/transparent</item>
+        <!-- Required to allow bottom sheet implement defined theme shape. -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="elevation">0dp</item>
+        <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
+    </style>
+
+    <style name="Theme.Elpe.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/Theme.Elpe.Text.H6</item>
+        <item name="subtitleTextAppearance">@style/Theme.Elpe.Text.P2</item>
+    </style>
+
+    <style name="Theme.Elpe.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textAppearance">@style/Theme.Elpe.Text.H6</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → BUTTONS -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.Clean" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.AppBar" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:paddingEnd">7dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="drawableTint">?colorOnSurface</item>
+        <item name="android:background">@drawable/bg_button_circle</item>
+        <item name="android:foreground">@drawable/el_ripple_circle</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.Clean.OnSurface" parent="Theme.Elpe.Button.Clean">
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.Clean.Small.OnSurface" parent="Theme.Elpe.Button.Clean.OnSurface">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Button.Clean.Small.OnSurface.Bold" parent="Theme.Elpe.Button.Clean.Small.OnSurface">
+        <item name="fontFamily">@font/font_main_bold</item>
+        <item name="minHeight">1dp</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → INPUT FIELD -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpet.InputField">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textAppearance">@style/Theme.Elpe.Text.P1.Href</item>
+        <item name="hintTextAppearance">@style/Theme.Elpe.Text.P1.Href</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="Theme.Elpe.InputFieldLayout.Outline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    </style>
+
+    <style name="Theme.Elpe.InputFieldLayout.Outline.Dropdown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+    </style>
+
+    <style name="Theme.Elpet.InputField.Outline">
+    </style>
+
+    <style name="Theme.Elpet.InputField.Outline.Rounded">
+        <item name="android:background">@drawable/bg_input_field_rounded</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → CHIPS -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.Chip" parent="@style/Widget.MaterialComponents.Chip.Filter">
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="android:checkable">true</item>
+        <item name="android:textColor">@color/text_color_chip_state_list</item>
+        <item name="android:textAppearance">@style/Theme.Elpe.Text.P2.Bold</item>
+        <item name="chipBackgroundColor">@color/background_color_chip_state_list</item>
+        <item name="rippleColor">@null</item>
+        <item name="checkedIcon">@drawable/ic_baseline_check_24</item>
+        <item name="chipIconSize">18dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Chip.Action" parent="@style/Widget.MaterialComponents.Chip.Action">
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="android:checkable">false</item>
+        <item name="android:textColor">@color/text_color_chip_state_list</item>
+        <item name="android:textAppearance">@style/Theme.Elpe.Text.P2.Bold</item>
+        <item name="chipBackgroundColor">@color/background_color_chip_state_list</item>
+        <item name="rippleColor">@null</item>
+        <item name="checkedIcon">@drawable/ic_baseline_check_24</item>
+        <item name="chipIconSize">18dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Chip.Action.Success" parent="@style/Theme.Elpe.Chip.Action">
+        <item name="android:textColor">@color/success</item>
+        <item name="chipStrokeColor">@color/success</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Chip.Action.Success.Filled" parent="@style/Theme.Elpe.Chip.Action.Success">
+        <item name="chipBackgroundColor">@color/success</item>
+        <item name="android:textColor">@color/on_success</item>
+        <item name="chipStrokeColor">@color/success</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Chip.Action.Primary.Filled" parent="@style/Theme.Elpe.Chip.Action.Success">
+        <item name="chipBackgroundColor">@color/primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="chipIconTint">@color/on_primary</item>
+        <item name="chipStrokeColor">@color/primary</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Theme.Elpe.Chip.Action.Counter" parent="@style/Theme.Elpe.Chip.Action">
+        <item name="android:textColor">@color/accent</item>
+        <item name="chipBackgroundColor">#ebebeb</item>
+        <item name="chipStrokeWidth">0dp</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → DIALOGS -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpet.DialogFullScreen">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Elpet.SlideDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="Theme.Elpet.ZoomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → CARDS -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="Theme.Elpe.CardCornersSharpTopLeft" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/Overlay.Theme.Elpe.CardCornersSharpTopLeft</item>
+    </style>
+
+    <style name="Overlay.Theme.Elpe.CardCornersSharpTopLeft" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">@dimen/shape_medium_corner_radius</item>
+        <item name="cornerSizeBottomRight">@dimen/shape_medium_corner_radius</item>
+        <item name="cornerSizeBottomLeft">@dimen/shape_medium_corner_radius</item>
+    </style>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → OTHER STYLES -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

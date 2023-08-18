@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → GENERIC SIZES -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_vertical_margin">12dp</dimen>
+    <dimen name="card_horizontal_margin">12dp</dimen>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → TEXT SIZES -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <dimen name="h1">40sp</dimen>
+    <dimen name="h2">35sp</dimen>
+    <dimen name="h3">30sp</dimen>
+    <dimen name="h4">25sp</dimen>
+    <dimen name="h5">20sp</dimen>
+    <dimen name="h6">17sp</dimen>
+    <dimen name="p1">16sp</dimen>
+    <dimen name="p2">12sp</dimen>
+    <dimen name="caption">10sp</dimen>
+    <dimen name="caption_small">9sp</dimen>
+    <dimen name="chip">10sp</dimen>
+
+    <!--┌───────────────────────────────────────────────────────────────────────────────────┐-->
+    <!--  → SHAPE SIZES -->
+    <!--└───────────────────────────────────────────────────────────────────────────────────┘-->
+
+    <dimen name="shape_small_corner_radius">8dp</dimen>
+    <dimen name="shape_medium_corner_radius">8dp</dimen>
+    <dimen name="shape_large_corner_radius">8dp</dimen>
+
+</resources>

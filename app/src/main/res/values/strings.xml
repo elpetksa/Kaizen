@@ -1,0 +1,30 @@
+<resources>
+
+    // ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+    // ║ OTHER STRINGS                                                                             ║
+    // ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
+    <string name="app_name">Kaizen Assignment</string>
+    <string name="generic_network_error_message">Δεν υπάρχει σύνδεση στο διαδίκτυο</string>
+    <string name="generic_error_message">Κάτι πήγε στραβά</string>
+    <string name="generic_copied">Αντιγράφτηκε στο πρόχειρο</string>
+    <string name="generic_share">Μοιραστείτε: </string>
+
+    // ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+    // ║ HOME FRAGMENT                                                                             ║
+    // ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
+    <string name="home_toolbar_title">Home</string>
+    <string name="home_event_label_vs">VS</string>
+    <string name="home_event_label_empty_button">Retry</string>
+
+    <string name="home_event_error_empty">No sports and/or events found or failed to retrieve list</string>
+
+    // ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+    // ║ SPORT DIALOG                                                                              ║
+    // ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
+    <string name="dialog_sport_label_copy">Copy</string>
+    <string name="dialog_sport_label_share">Share</string>
+
+</resources>
